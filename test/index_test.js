@@ -24,5 +24,15 @@ describe("Calculate", () => {
         assert.equal(result, expected)
 
       })
+      // edge case
+      it("returns 1 when you pass in 0", () => {
+          //setup
+          const expected = 1;
+          const inputNum = 0;
+          //exercise
+          const result = Calculate.factorial(inputNum);
+          //verify
+          assert.equal(result, expected);
+      })
     })
 })
