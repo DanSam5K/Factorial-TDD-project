@@ -1,0 +1,25 @@
+{
+  "name": "factorial-tdd-project",
+  "version": "1.0.0",
+  "description": "tdd project",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanSam5K/Factorial-TDD-project.git"
+  },
+  "author": "DanSam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanSam5K/Factorial-TDD-project/issues"
+  },
+  "homepage": "https://github.com/DanSam5K/Factorial-TDD-project#readme",
+  "dependencies": {
+    "mocha": "^8.1.3"
+  }
+}
